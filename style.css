@@ -1,39 +1,30 @@
-.wrapper{
-    display: grid;
-    border-radius: 10px;
+.form{
+        display: flex;
     border: 1px solid black;
-    height: 800px;
-    width: 800px;
-    justify-self: center;
-}
-.item{
-    display: flex;
+    border-radius: 10px;
     flex-direction: column;
-    justify-self: center;
-    margin-top: 100px;
-    gap:30px
+    gap: 10px;
+    width: 300px;
+    padding: 20px;
+    margin: auto;
+}
+.btn{
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    border: none;
+    width: 50px;
+    margin: auto;
 }
 .heading{
     display: grid;
-    font-size: 20px;
     justify-content: center;
-}
-
-button{
-    width: 250px;
-    height: 40px;
-    background-color: black;
-    border: none;
-    border-radius: 10px;
-    color: white ;
-    cursor: pointer;
-}
-.item__input{
-    width: 250px;
-    height: 40px;
 }
 .plus{
     display: grid;
     justify-content: center;
-    
+}
+body{
+    display: grid;
+    justify-content: center;
 }
